@@ -1,0 +1,7 @@
+func buildArray(nums []int) []int {
+  var final []int
+    for i:=0;i<len(nums);i++{
+       final =append(final,nums[nums[i]])
+    }
+    return final
+}
